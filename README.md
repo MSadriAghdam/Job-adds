@@ -32,3 +32,4 @@ The software skill expected of applicants was extracted and analysed. Skill such
 Also, with reference to the experience of applicants, most jobs did not specify how many years of experience is expected of the applicants. However, we extracted 1 to 3 years of experience, 3 to 5 years, and 5 years plus of working experience expected of applicants.
 
 Finally, further analysis was done on the correlation of these columns to get an insight of the data using seaborn and matplotlib for visualization.
+We also created a dashborad on data studio which is avalable here :https://datastudio.google.com/s/rADvuIXI694
