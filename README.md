@@ -8,41 +8,6 @@ This database will contain the following:
 4. Language - English/German.
 5. Type of Employment - full time, part-time, internship, student job, etc.
 
-# Differences between SQL and NoSQL
-Generally, SQL database are relational and NoSQL are nonrelational. 
-SQL database uses structured query language whereas NoSQL uses dynamic schema for unstructured data. 
-
-Data Storage Model: 
-•	SQL Database are tables based with fixed rows and columns
-•	No SQL Database are Document such as JSON documents, Key-value such as key-value pairs, Wide-column such as tables with rows and dynamic columns, Graph with nodes and edges
-
-Examples
-•	SQL Database: Oracle, MySQL, Microsoft SQL
-•	NoSQL Database: Document: MongoDB and CouchDB, Key-value: Redis and DynamoDB, Wide-column: Cassandra and HBase, Graph: Neo4j and Amazon Neptune. Consider what your use cases will be and check if the general purpose NoSQL database like MongoDB would be a better option.
-
-Primary Purpose
-•	SQL: General purpose
-•	NoSQL: Document: general purpose, Key-value: large amounts of data with simple lookup queries, Wide-column: large amounts of data with predictable query patterns, Graph: analyzing and traversing relationships between connected data
-
-Schemas
-•	SQL: rigid and predefined
-•	NoSQL: flexible/dynamic. A flexible schema allows you to easily make changes to your database as requirements change. You can iterate quickly and continuously integrate new application features to provide value to your users faster.
-
-Joins
-•	SQL: Typically required. Data in SQL databases is typically normalized, so queries for a single object or entity require you to join data from multiple tables. As your tables grow in size, the joins can become expensive. 
-•	NoSQL: Typically, not required. Data in NoSQL databases is typically stored in a way that is optimized for queries. The rule of thumb when you use MongoDB is - Data that is accessed together should be stored together. Queries typically do not require joins, so the queries are faster than SQL databases. 
-
-Data to Object Mapping
-•	SQL: Requires ORM (object-relational mapping)
-•	NoSQL: Many do not require ORMs. MongoDB documents map directly to data structures in most popular programming languages. Mapping can allow developers to write less code, leading to faster development time and fewer bugs
-
-Scaling
-•	SQL: Most SQL databases require you to scale-up vertically (migrate to a larger, more expensive server) when you exceed the capacity requirements of your current server.
-•	NoSQL most NoSQL databases allow you to scale-out horizontally, meaning you can add cheaper, commodity servers whenever you need to.
-
-Source: https://www.mongodb.com/nosql-explained/nosql-vs-sql
-
-
 Using Google API to connect google form with Jupyter notebook:
 To do this we need to do these 3 steps:
 step 1: create a google service account.
